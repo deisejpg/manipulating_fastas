@@ -1,3 +1,9 @@
+#to prepare this file, run:
+#for file in *.cln.fa; do echo seqkit sort --quiet -n -i ../e_remove_duplicates_output/$file \
+# '&>' ../e_remove_duplicates_sorted_output/${file//.cln.fa/.cln.sorte.fa}
+#Check if it looks good, add "&> sort_clean_local.sh" to the end of the line and save the
+#command to a new file
+#bash sort_clean_local.sh
 seqkit sort --quiet -n -i ../e_remove_duplicates_output/KF156836.cln.fa &> ../e_remove_duplicates_sorted_output/KF156836.cln.sorted.fa
 seqkit sort --quiet -n -i ../e_remove_duplicates_output/KF156836.cln.fa &> ../e_remove_duplicates_sorted_output/KF156836.cln.sorted.fa
 seqkit sort --quiet -n -i ../e_remove_duplicates_output/KF156836.cln.fa &> ../e_remove_duplicates_sorted_output/KF156836.cln.sorted.fa
