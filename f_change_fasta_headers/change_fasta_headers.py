@@ -1,8 +1,8 @@
 
 '''
-	It takes a fasta file with headers like ">gene_name"
-	and change them to add the name of the file (which is
-	the species name) to the beginning of the header,
+	This script takes a fasta file with headers like ">gene_name"
+	and change them to add the name of the file (which in this 
+	case is the species name) to the beginning of the header,
 	to look like this: ">Sample_name-gene_name
 
 	Usage:
