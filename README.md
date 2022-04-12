@@ -60,7 +60,7 @@ headers like ">sample_name." Read the script description for more details. This 
 a great resource to practice python dictionaries!
 
 
-[[./Diagram_pipeline.drawio]]
+[[./images/Untitled Diagram.drawio]]
 
 Next, I will add scripts to align the data and to infer and manipulate phylogenies.
 
