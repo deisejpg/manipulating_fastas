@@ -1,10 +1,11 @@
 
 '''
 	It takes a fasta file with headers like ">gene_name"
-	and change them to add the name of the file (which is the species name) to the beginning of the header,
+	and change them to add the name of the file (which is
+	the species name) to the beginning of the header,
 	to look like this: ">Sample_name-gene_name
 
-	This script runs with:
+	Usage:
 	python fix_fasta_headers.py
 '''
 
