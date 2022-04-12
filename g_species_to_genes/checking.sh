@@ -1,4 +1,6 @@
 #for file in *.cln.sorted.fa; do echo grep -H "'>'" $file '|' wc -l; done &> checking.sh
+#either run the loop in the command line without the last bit '&> checking.sh' or
+#run the bash script with 'bash checking'
 grep -H '>' JQ757046.cln.sorted.fa | wc -l
 grep -H '>' KF156836.cln.sorted.fa | wc -l
 grep -H '>' KU878156.cln.sorted.fa | wc -l
