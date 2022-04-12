@@ -60,7 +60,6 @@ headers like ">sample_name." Read the script description for more details. This 
 a great resource to practice python dictionaries!
 
 
-[[/images/Diagram_pipeline.jpg]]
 ![](/images/Diagram_pipeline.jpg)
 
 
