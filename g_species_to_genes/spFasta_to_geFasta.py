@@ -1,33 +1,49 @@
 '''
-	In this script we will:
-
-	Read species fasta files each one of which containing multiple
-	 plastome genes
-     	Headers are in the format: ">species_name-gene_name"
+	
+	For impatient people:
+	Fasta input:
+	Species_name.fasta
+	>Species_name-gene_name
+	Sequence
+	
+	Fasta output:
+	gene_name.fasta
+	>Species_name
+	sequence
+	
+	This script reads species' fasta files each one of which containing
+	multiple plastome genes. Headers are in the format: 
+	">species_name-gene_name." It outputs one file per gene with all the
+	genes for all species with headers in format ">sample_name."
 
 	To get all the sequences from all the genes for all the species
-	 we need to create a nested dictionary.
+	we need to create a nested dictionary.
         The nested dictionary will have the following structure:
-        	{Sample_name: {gene_name: sequence}}
+        {Sample_name: {gene_name: sequence}}
 
      	We will create an empty dictionary "fastas_by_gene" to be our
-	 nested dictionary
+	nested dictionary.
      	Loop over all the files in the current directory calling
-	 fas_to_dict() and storing the data in the dictionary
+	fas_to_dict() and storing the data in the dictionary.
+	
+        To save the files "per gene", iterate over the nested dictionary
+	and call dic_to_fas() to create one fasta file for each gene.
+	
+	fas_to_dic() is a function defined below that reads fasta files
+	into python dictionaries. 
+	dic_to_fas(), also defined below, takes python dictionaries and 
+	save them as fasta files.
 
-        To save the files per gene, iterate over the nested dictionary
-	 and call dic_to_fas() to create a fasta file for each gene
-
-	Here, dic_to_fas() will create a fasta file for each gene that
-	 were store in the nested dictionary and will save it in the
-	 current directory
+	Here, dic_to_fas() will create one fasta file for each gene that
+	was stored in the nested dictionary. Output files will be saves 
+	it in the current directory.
 
 	The structure of the fasta file will be:
 	        >sample_name
         	sequence
 
 	 And the name of the file will be:
-         	sample_name.fasta
+         	gene_name.fasta
 '''
 
 import glob
