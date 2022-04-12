@@ -1,1 +1,169 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T16:23:25.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" version="17.4.2" etag="_XTOYeHwKe0jYxCmdxXs" type="github"><diagram id="8uMqdHStJd75wzkcKtQs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-12T16:55:52.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="N-qm-3INf_eO-xHeG38m" version="17.4.2" type="github">
+  <diagram id="8uMqdHStJd75wzkcKtQs" name="Page-1">
+    <mxGraphModel dx="1200" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sBfp5PO3AsElEniRhopS-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="798" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-48" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;fontColor=#4D4D4D;strokeColor=#000000;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sBfp5PO3AsElEniRhopS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280.5" y="191" as="sourcePoint" />
+            <mxPoint x="283" y="351" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="331" y="171" />
+              <mxPoint x="291" y="251" />
+              <mxPoint x="271" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-12" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="484" width="530" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sBfp5PO3AsElEniRhopS-1" target="sBfp5PO3AsElEniRhopS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="sBfp5PO3AsElEniRhopS-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="262.98" as="targetPoint" />
+            <mxPoint x="105" y="185" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sBfp5PO3AsElEniRhopS-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="371" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-1" value="&lt;b&gt;a&lt;/b&gt; fetches genbank &lt;br&gt;files" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="65" y="99" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.042;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460.96000000000004" y="404.02" as="targetPoint" />
+            <mxPoint x="340" y="404" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-2" value="&lt;b&gt;d&lt;/b&gt; parse many genes from many gb files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="351" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#4D4D4D;strokeColor=#000000;" edge="1" parent="1" target="sBfp5PO3AsElEniRhopS-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="261" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="380" y="261" />
+              <mxPoint x="380" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-57" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.108;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#4D4D4D;strokeColor=#000000;" edge="1" parent="1" source="sBfp5PO3AsElEniRhopS-3" target="sBfp5PO3AsElEniRhopS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-3" value="&lt;b&gt;c&lt;/b&gt; parse many genes from a single gb file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.883;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#4D4D4D;strokeColor=#000000;" edge="1" parent="1" target="sBfp5PO3AsElEniRhopS-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="281" y="168" as="sourcePoint" />
+            <mxPoint x="281.03999999999996" y="229.98000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-4" value="&lt;b&gt;b&lt;/b&gt; gets list of genes of interest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.04;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="156" as="sourcePoint" />
+            <mxPoint x="667" y="155.98000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-5" value="&lt;b&gt;g&lt;/b&gt; species to genes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="129" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="522" y="259" as="sourcePoint" />
+            <mxPoint x="522" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-6" value="&lt;b&gt;f&lt;/b&gt; change fasta headers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sBfp5PO3AsElEniRhopS-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-7" value="&lt;b&gt;e&lt;/b&gt; remove duplicates and sort fasta files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461" y="374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-8" value="fasta manipulation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="511" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-9" value="scraping genebank" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="185" y="494" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-10" value="Manipulating alignments" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258" y="499" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-11" value="&lt;i&gt;in prep&lt;/i&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="369" y="509" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#f5f5f5;strokeColor=#4D4D4D;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="719" y="183" as="sourcePoint" />
+            <mxPoint x="719" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-13" value="&lt;b&gt;h&lt;/b&gt; mafft &lt;br&gt;alignment" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="668" y="128" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontColor=#4D4D4D;fillColor=#f5f5f5;strokeColor=#4D4D4D;" edge="1" parent="1" source="sBfp5PO3AsElEniRhopS-14" target="sBfp5PO3AsElEniRhopS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-14" value="Trimming&lt;br&gt;alignments" style="ellipse;whiteSpace=wrap;html=1;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="669" y="259" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.558;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#f5f5f5;strokeColor=#4D4D4D;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="461" as="sourcePoint" />
+            <mxPoint x="719.96" y="510.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-15" value="Inferring&lt;br&gt;phylogenies" style="rhombus;whiteSpace=wrap;html=1;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="669" y="367" width="101" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-16" value="Manipulating&amp;nbsp;&lt;br&gt;phylogenetic&lt;br&gt;triees" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="650" y="511" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-17" value="tree manipulation" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="436" y="510" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-49" value="you need&amp;nbsp;to &lt;br&gt;prep a list&amp;nbsp;of&lt;br&gt;genes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="158" y="93" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-51" value="you have&amp;nbsp;a&lt;br&gt;list&amp;nbsp;of genes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="25" y="183" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-52" value="wants genes&lt;br&gt;from a single&lt;br&gt;gb file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="25" y="231" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-54" value="wants genes&lt;br&gt;from multiple&lt;br&gt;gb files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="25" y="334" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-55" value="wants genes from&lt;br&gt;a single or multiple&lt;br&gt;gb files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="169.5" y="178" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sBfp5PO3AsElEniRhopS-59" value="Workflow to manipulate fasta files for phylogenetic inference" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="69" y="40" width="680" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
