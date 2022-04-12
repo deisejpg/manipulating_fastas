@@ -60,8 +60,6 @@ headers like ">sample_name." Read the script description for more details. This 
 a great resource to practice python dictionaries!
 
 
-![](/images/Pipeline_diagram.jpg)
-
 <p align="center">
   <img 
     src="/images/Pipeline_diagram.jpg"
