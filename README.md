@@ -61,6 +61,7 @@ a great resource to practice python dictionaries!
 
 
 [[/images/Diagram_pipeline.jpg]]
+![](../../blob/master/images/Diagram_pipeline.jpg)
 
 
 Next, I will add scripts to align the data and to infer and manipulate phylogenies.
