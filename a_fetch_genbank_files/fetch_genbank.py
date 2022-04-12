@@ -9,7 +9,7 @@
 
     Change "Entrez.email = 'deisejpg@gmail.com'" to your email
 
-    To run:
+    Usage:
     python fetch.gbdata.py accession.names.list.txt
 
     The format of the file with GenBank accession numbers
