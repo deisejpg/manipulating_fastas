@@ -60,7 +60,8 @@ headers like ">sample_name." Read the script description for more details. This 
 a great resource to practice python dictionaries!
 
 
-[[./images/Diagram_pipeline.jpg]]
+[[/images/Diagram_pipeline.jpg]]
+
 
 Next, I will add scripts to align the data and to infer and manipulate phylogenies.
 
