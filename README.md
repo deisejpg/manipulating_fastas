@@ -59,6 +59,9 @@ species, with all the genes for that given species and with headers like
 headers like ">sample_name." Read the script description for more details. This is
 a great resource to practice python dictionaries!
 
+
+[[./Diagram_pipeline.drawio]]
+
 Next, I will add scripts to align the data and to infer and manipulate phylogenies.
 
 
