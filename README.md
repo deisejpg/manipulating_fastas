@@ -62,6 +62,12 @@ a great resource to practice python dictionaries!
 
 ![](/images/Pipeline_diagram.jpg)
 
+<p align="center">
+  <img 
+    src="/images/Pipeline_diagram.jpg"
+  >
+</p>
+
 
 Next, I will add scripts to align the data and to infer and manipulate phylogenies.
 
