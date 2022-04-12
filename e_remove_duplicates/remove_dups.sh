@@ -1,4 +1,21 @@
-#mkdir ..../d_parse_manygenes_manygb_output/
+#fix names of the directories!
+
+#on the command line, before running this script:
+#go to the previous output folder to run the for loop (becasue the fasta files are there!
+#cd ../d_parse_manygenes_manygb_output
+#then, in a single line type (without the '\' at the end of the line):
+#for file in *fasta; do echo seqkit --quiet rmdup -n ../d_parse_manygenes_manygb_output/$file \
+# -D ../e_remove_duplicates_output/${file//.fasta/.dup.seqs.list}                             \
+# -d ../../e_remove_duplicates_output/${file//.fasta/.dup.seqs.fasta} "&>"                    \
+#../../e_remove_duplicates_output/${file//.fasta/.dup.seqs.fasta}
+
+#check if this gives you the correct code (use the lines above or 'seqkip --help' to check the
+#flags
+#if if looks good, remove 'echo' from the for loop and run it again
+#you can add '"&>" remove_dups_local.sh' to the end of the for loop to save the commands on a new file
+#cd ../e_remove_duplicates
+#mkdir ../e_remove_duplicates_output/
+#bash remove_dups_local.sh
 seqkit --quiet rmdup -n ../d_parse_manygenes_manygb_output/KF156836.fasta -D ../e_remove_dup_genes_output/KF156836.dup.seqs.list -d ../e_remove_dup_genes_output/KF156836.dup.seqs.fasta &> ../e_remove_dup_genes_output/KF156836.cln.fa
 seqkit --quiet rmdup -n ../d_parse_manygenes_manygb_output/KU878156.fasta -D ../e_remove_dup_genes_output/KU878156.dup.seqs.list -d ../e_remove_dup_genes_output/KU878156.dup.seqs.fasta &> ../e_remove_dup_genes_output/KU878156.cln.fa
 seqkit --quiet rmdup -n ../d_parse_manygenes_manygb_output/KX904873.fasta -D ../e_remove_dup_genes_output/KX904873.dup.seqs.list -d ../e_remove_dup_genes_output/KX904873.dup.seqs.fasta &> ../e_remove_dup_genes_output/KX904873.cln.fa
