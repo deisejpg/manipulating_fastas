@@ -23,7 +23,7 @@ databases.
 
 The next two directories have scripts to parse the data from genbank files. 
 If you want like to parse genes from a single file, go to 'c'. If you want 
-to parse multiple genes from multiple files at the same time, go to 'd'.
+to parse multiple genes from multiple files at the same time, go to `d_parse_manygenes_manygb`.
 'c' and 'd' will output fasta files in the following format:
     - one fasta file per species
     - fasta header ">gene_name"
@@ -48,12 +48,12 @@ it is good to have both the species and the gene names in the header. For exampl
 if you want to align genes from different species you need to shuffle species of 
 each gene in fasta files for each. That's our next step.
 
-In `/g_species_to_genes`, first we use 'checking.sh' that all our fasta files have
+In `g_species_to_genes`, first we use __checking.sh__ that all our fasta files have
 the number of genes we expect. They don't necessarily have to have the same number 
 because the gene may have been lost in some species, or the record on the public
 database was incomplete. In any case it is important to check and it is also 
 pretty quick and simple.
-Next, the script `spFasta_to_geFasta.py` reads fasta files that are organized by
+Next, the script __spFasta_to_geFasta.py__ reads fasta files that are organized by
 species, with all the genes for that given species and with headers like 
 ">species_name-gene_name". This script outputs are fasta files per gene with
 headers like ">sample_name." Read the script description for more details. This is
