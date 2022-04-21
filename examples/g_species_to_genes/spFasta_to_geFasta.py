@@ -108,7 +108,7 @@ if not out_dir_path.exists():
 fastas_by_gene = {}
 
 #iterating over all the fasta files in the current directory
-for file in sorted(list(Path("../e_remove_duplicates_sorted_output").glob("*.fa"))):
+for file in sorted(list(Path("../f_change_fasta_headers_output").glob("*.fa"))):
     sample_fasta = fas_to_dic(file)
     gene_name = ""
     for seq_name in sample_fasta:
