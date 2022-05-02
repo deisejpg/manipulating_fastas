@@ -5,6 +5,8 @@ __./scripts/__ directory has all the scripts used in the 'examples' pipeline
 __./examples/__ directory has the example of a pipeline to go from downloading 
 files from genbank, to preparing alignments and inferring phylogenies
 
+
+
 Find below some thorough explanation on how to use the 'examples' pipeline:
 
 This is intended to teach students step by step some ways to manipulate fasta 
