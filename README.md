@@ -1,5 +1,12 @@
 # Manipulating fasta files for phylogenetic analysis
 
+__scripts__ directory has all the scripts used in the 'examples' pipeline
+
+__examples__ directory has the example of a pipeline to go from downloading 
+files from genbank, to preparing alignments and inferring phylogenies
+
+Find below some thorough explanation on how to use the 'examples' pipeline:
+
 This is intended to teach students step by step some ways to manipulate fasta 
 files. The organization in multiple directories is solely to keep it simple 
 for for students to visualize what is input and what it output. Even if you 
