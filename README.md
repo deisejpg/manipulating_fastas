@@ -71,7 +71,7 @@ a great resource to practice python dictionaries!
 
 <p align="center">
   <img 
-    src="/images/Pipeline_Diagram_2.jpg"
+    src="/images/Pipeline_diagram_2.jpg"
   >
 </p>
 
